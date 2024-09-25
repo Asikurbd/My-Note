@@ -1,0 +1,14 @@
+
+Github এ CDN (CSS, JS) Raw ফাইল ট্যাগ দেবার নিয়ম।
+
+প্রথমে https://cdn.jsdelivr.net/gh/ 
+দেবার পর নিচের মত https://cdn.jsdelivr.net/gh/ 
+এর পরে /ইউজারনেম/ফাইলনেম/ফাইল বসাতে হবে।
+
+https://cdn.jsdelivr.net/gh/ইউজারনেম/ফাইলনেম/ফাইল
+
+সম্পূর্ণ কোড নিচে দেয়া হলো।
+
+https://cdn.jsdelivr.net/gh/Asikurbd/pagination/pagination.js
+
+<script src="https://cdn.jsdelivr.net/gh/Asikurbd/pagination/pagination.js"></script>
