@@ -1,0 +1,43 @@
+<div style="background:#047448;color:#fff;">
+<center> PC Software </center>
+</div>
+
+<center style="padding:2px;"></center>
+
+
+
+<div id="myDIV"> <div id="jar">
+
+
+<!-- _______________________________-->
+
+<div class="content" class="j"><hr>★ 
+<a href=" ## " target="_blank"> *** </a> 
+</div>
+
+<!-- _______________________________-->
+
+
+</div></div>
+
+<hr>
+<center><div class="pagination"></div></center>
+
+
+
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myDIV *").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<link href="https://cdn.jsdelivr.net/gh/Asikurbd/pagination/pagination.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/gh/Asikurbd/pagination/pagination.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Asikurbd/pagination/pagination.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Asikurbd/jQuery-Filters/jQuery.js"></script>
