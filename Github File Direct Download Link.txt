@@ -1,0 +1,7 @@
+Github এ আপলোড করা ফাইলের ডাইরেক্ট ডাউনলোড লিংক বের করতে চাইলে 
+
+https://raw.githubusercontent.com/আইডিনাম/ফোল্ডারেরনাম/refs/heads/main/ফাইলের নাম
+
+উদাহরণ:-
+
+https://raw.githubusercontent.com/Asikurbd/my-image/refs/heads/main/2.jpg
