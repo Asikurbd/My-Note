@@ -1,0 +1,11 @@
+Github এর  repositories কে webpage আকারে দেখার জন্য প্রথমে সেই repositories এর সেটিং অপশনে গিয়ে
+
+Pages অপশনে গিয়ে Build and deployment এর Source অপশনে Github Actions সিলেক্ট করার পর 
+
+Use a suggested workflow, browse all workflows, or create your own. 
+
+এই অপশন দেখা দিলে create your own অপশনে ক্লিক করার পর একটি workflow তৈরি করতে হবে workflow
+
+এর নাম হবে static.yml 
+
+এটার সকল কোড my note repositories এর ভিতরে আছে।
