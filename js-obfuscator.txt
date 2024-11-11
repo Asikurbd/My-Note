@@ -1,0 +1,32 @@
+প্রথমে আপনার JS ও CSS করা আলাদা আলাদা ফাইলগুলো সব একসাথে নিচের কোডের মধ্যে লিংকগুলো কপি পেস্ট করতে হবে।
+তারপর নিচের কোডটি আলাদা একটি JS ফাইল তৈরি করে সেভ করতে হবে।
+
+function callAll(jsfiles) {
+    var src = document.createElement("script");
+    src.setAttribute("type", "text/javascript");
+    src.setAttribute("src", jsfiles);
+    document.getElementsByTagName("head")[0].appendChild(src);
+}
+callAll("https://cdn.jsdelivr.net/gh/Asikurbd/font-converter/bijoy2uni.js");
+callAll("https://cdn.jsdelivr.net/gh/Asikurbd/font-converter/uni2bijoy.js");
+callAll("https://cdn.jsdelivr.net/gh/Asikurbd/font-converter/common.js");
+
+এরপর
+
+নিচের কোডটি কপি করে 
+function callAll(jsfiles) {
+    var src = document.createElement("script");
+    src.setAttribute("type", "text/javascript");
+    src.setAttribute("src", jsfiles);
+    document.getElementsByTagName("head")[0].appendChild(src);
+}
+callAll("https://cdn.jsdelivr.net/gh/Asikurbd/font-converter/script.js");
+
+নিচের দেয়া এই সাইট থেকে উপরের কোডটা কপি পেস্ট করে কোড Obfuscator করে নিতে হবে।
+https://javascriptobfuscator.com/Javascript-Obfuscator.aspx
+
+তারপর 
+
+<script type="text/javascript">
+এরপর Obfuscator করা কোডটি এর ভিতরে বসাতে হবে।
+</script>
