@@ -10,3 +10,34 @@ _______________________________
 ' ## ':" ** ",
 কোন স্পেস থাকবে না।
 _______________________________
+
+
+Youtube Vanced App Code
+
+"announcement_last_id": 10,
+"copy_video_url_timestamp": false,
+"external_downloader": true,
+"hide_captions_button": true,
+"hide_download_button": true,
+"hide_player_previous_next_buttons": true,
+"hide_report_button": true,
+"hide_shorts_dislike_button": true,
+"hide_shorts_home": true,
+"hide_shorts_like_fountain": false,
+"hide_shorts_save_sound_button": false,
+"hide_shorts_search": true,
+"hide_shorts_sound_metadata_label": true,
+"hide_shorts_subscriptions": true,
+"hide_shorts_video_title": true,
+"hide_timed_reactions": false,
+"miniplayer_type": "phone",
+"playback_speed_dialog_button": true,
+"shorts_autoplay_background": false,
+"swipe_brightness": false,
+"video_quality_default_mobile": 480,
+"video_quality_default_wifi": 720,
+"sb_local_time_saved_milliseconds": 124244,
+"sb_local_time_saved_number_segments": 13
+
+_______________________________
+
