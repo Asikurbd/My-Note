@@ -1,0 +1,22 @@
+জিপি সিম MNP করে এয়ারটেল এ যাওয়ার কারনে ব্যাংকের এসএমএস গুলি এখন অন্য নম্বর থেকে আসে, আমি আবারো জিপিতে ব্যাক করার পরেও সমাধান হচ্ছেনা।
+
+এমন একটা পোষ্ট করার পরে অনেকেই সমাধানের উপায় খুজতেছিলেন, সেখানে আমি একজনের কমেন্ট দেখে ইমেইল করার পরে আমার সমাধান হয় ও এখন যে ব্যাংকের এসএমএস সেই ব্যাংকের নামেই আসছে।
+
+অনেকেই জানতে চাইছেন আমি কি লিখে কোথায় ইমেইল করার পরে সমাধান হয়। আমি এই পোষ্ট এ ডেমো দিয়ে দিচ্ছি, আপনি চাইলে ইমেইল করে চেষ্টা করে দেখতে পারেন, এর পরেও না হলে ইমেইল করার পরে ব্যাংকের হেল্প লাইনে কল দিয়ে সমাধান চাইবেন, তারা করে দিবে, আমার ইমেইল করাতেই সমাধান হয়ে গিয়েছে।
+
+আমি ডেমো মেইল দিচ্ছি আপনারা আপনাদের তথ্য গুলি ফিলাপ করে মেইল করে দিতে পারেন বা মেইলের ভিতরে চেঞ্জ করতে পারেন লেখা।
+
+মেইল পাঠাবেন এই মেইল ঠিকানায়ঃ query@sslwireless.com, support@sslwireless.com
+
+Subject: Request for Resolution of SMS Issue After Operator Change
+
+Dear SSL Wireless Team,
+I hope this email finds you well.
+My name is [Your Name], and my phone number is +880****. I am writing to seek your assistance regarding an ongoing issue with SMS notifications from my bank.
+A few months ago, I changed my mobile operator from Grameenphone to Airtel. However, I faced problems with receiving OTPs and other banking updates. Consequently, I reverted my connection back to Grameenphone, which is my original operator.
+Despite this change, I am still facing a problem: banking SMS messages are being delivered from an unknown number instead of the bank's official number. This has caused confusion, as all banking notifications are now coming from the same unidentified number, making it difficult to differentiate between legitimate updates and potential spam.
+I kindly request your team to investigate this matter and resolve the issue at the earliest. Receiving banking updates from the official number is crucial for me to ensure the security and authenticity of these communications.
+Thank you for your attention to this matter. I look forward to your prompt response.
+Best regards,
+Your Name:
+Phone: +880****
