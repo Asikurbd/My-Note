@@ -31,6 +31,8 @@ https://javascriptobfuscator.com/Javascript-Obfuscator.aspx
 এরপর Obfuscator করা কোডটি এর ভিতরে বসাতে হবে।
 </script>
 
+_______________________________________
+
 Css কোডের জন্য
 <script type="text/javascript">
 function callAll(cssfiles) {
@@ -43,3 +45,19 @@ function callAll(cssfiles) {
 callAll("/font-converter/script-2/site.css");
 callAll("/font-converter/script-2/css.css");
 </script>
+
+_______________________________________
+
+HTML কোডের জন্য iframe দিয়ে কোড বসাতে হবে 
+
+<script>
+var quotes = new Array();
+
+// **Warning:** Only use iframes from trusted sources you control to avoid security risks.
+quotes[0] = '<iframe src="https://asikurbd.github.io/Files-Upload/youtube-tv.html" height="100%" width="100%" frameBorder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0%;left:0px;right:0px;bottom:0px"></iframe>';
+
+var whichquote = Math.floor(Math.random() * (quotes.length));
+
+document.write(quotes[whichquote]);
+</script>
+_______________________________________
