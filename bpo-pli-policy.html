@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+</head>
+<body>
+    <form id="autoSubmitForm" action="https://www.bpo-pli.com/home/check_policy_status" method="post">
+        <input type="hidden" name="cdn_number" value="CR-00-000274-21">
+        <input type="hidden" name="dob" value="13/04/1999">
+    </form>
+    <script>
+        document.getElementById('autoSubmitForm').submit();
+    </script>
+    <p>If you are not redirected automatically, <a href="#" onclick="document.getElementById('autoSubmitForm').submit(); return false;">click here</a>.</p>
+</body>
+</html>
