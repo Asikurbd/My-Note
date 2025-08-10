@@ -5,8 +5,17 @@
 
 <br><br><br><br><center> 
 
-<h1>sajulira123</h1>
 
+<button onclick="copyToClipboard()">
+<h1> sajulira123 </h1></button>
+<script>
+function copyToClipboard() {
+  const code = "sajulira123";
+  navigator.clipboard.writeText(code)
+    .then(() => alert("Copied to clipboard!"))
+    .catch(err => alert("Failed to copy: " + err));
+}
+</script>
 
 
 </center>
