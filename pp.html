@@ -7,7 +7,7 @@
 
 
 <button onclick="copyToClipboard()">
-<h1> sajulira123 </h1></button>
+<h1>Tp Link</h1></button>
 <script>
 function copyToClipboard() {
   const code = "sajulira123";
@@ -18,5 +18,18 @@ function copyToClipboard() {
 </script>
 
 
+<br><br><br>
+
+<button onclick="copyToClipboard()">
+<h1>Tenda</h1></button>
+<script>
+function copyToClipboard() {
+  const code = "00000";
+  navigator.clipboard.writeText(code)
+    .then(() => alert("Copied to clipboard!"))
+    .catch(err => alert("Failed to copy: " + err));
+}
+</script>
+  
 
 </center>
