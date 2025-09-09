@@ -2,10 +2,16 @@ import yt_dlp
 import os
 
 def download_with_choice():
+    # Display copyright information
+    print("=" * 50)
+    print("YouTube Downloader")
+    print("Copyright: Asikur Rahman Saju")
+    print("=" * 50)
+    
     url = input("Enter YouTube URL: ").strip()
     
     if not url:
-        print("❌ Please enter a URL")
+        print("Please enter a URL")
         return
     
     download_dir = os.path.join(os.path.expanduser("~"), "Desktop", "YouTube_Downloads")
@@ -26,7 +32,7 @@ def download_with_choice():
             # Sort by resolution descending
             mp4_formats.sort(key=lambda x: x['height'], reverse=True)
             
-            print(f"\n📹 Title: {info.get('title', 'Unknown')}")
+            print(f"\n Title: {info.get('title', 'Unknown')}")
             print("Available MP4 formats:")
             for i, fmt in enumerate(mp4_formats, 1):
                 res = fmt.get('height', 'N/A')
@@ -45,7 +51,7 @@ def download_with_choice():
                 print("Selecting highest quality...")
             
     except Exception as e:
-        print(f"❌ Error getting formats: {e}")
+        print(f" Error getting formats: {e}")
         format_str = 'best[ext=mp4]'
     
     # Download with selected format
@@ -58,21 +64,25 @@ def download_with_choice():
     
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            print("⬇️ Downloading...")
+            print("Downloading...")
             ydl.download([url])
-            print("✅ Download completed!")
+            print("Download completed!")
     except Exception as e:
-        print(f"❌ Download error: {e}")
+        print(f"Download error: {e}")
 
 def progress_hook(d):
     if d['status'] == 'downloading':
         percent = d.get('_percent_str', '0%')
         speed = d.get('_speed_str', 'N/A')
         eta = d.get('_eta_str', 'N/A')
-        print(f"\r📥 Progress: {percent} | Speed: {speed} | ETA: {eta}", end='', flush=True)
+        print(f"\r Progress: {percent} | Speed: {speed} | ETA: {eta}", end='', flush=True)
     elif d['status'] == 'finished':
-        print(f"\r✅ Download complete!{' ' * 50}")
+        print(f"\r Download complete!{' ' * 50}")
 
 if __name__ == "__main__":
     download_with_choice()
+    print("\n" + "=" * 50)
+    print("Thank you for using YouTube Downloader")
+    print("Copyright Asikur Rahman Saju")
+    print("=" * 50)
     input("Press Enter to exit...")
