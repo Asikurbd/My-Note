@@ -1,0 +1,82 @@
+<style>
+body{	
+	font-family: Calibri, kalpurush !important;
+	max-width:900px; 
+	font-size: 17px; 
+	color: #000; 
+	background-color:#fafafa;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin: 0 auto;
+	padding: 3px;
+	border: 0px solid #a2a2a2;
+}
+
+html * {
+    font-family: Calibri, kalpurush !important;
+}
+</style>
+
+
+<br>
+<center><h2>RRz APK-তে URL পরিবর্তন করার ধাপগুলো নিচে দেওয়া হলো:</h2></center>
+<br>
+Assets/appConfig.json<br><br>
+এখানে ৩ নম্বর লাইনেই URL পাওয়া যাবে, এটা চেঞ্জ করলেই কাজ শেষ।<br>
+
+<br>
+<center><h2>Android APK-তে লোগো পরিবর্তন করার ধাপগুলো নিচে দেওয়া হলো:</h2></center>
+<br>
+লোগো পরিবর্তনের ধাপ:<br>
+<br><br>
+# ১. প্রস্তুতি:<br>
+- APK Editor App (Android)<br>
+- নতুন লোগো ইমেজ (সঠিক রেজোলিউশনে)<br>
+- File Manager App<br>
+<br><br>
+# ২. লোগো পাথগুলো খুঁজে বের করা:<br>
+res/drawable/<br>
+res/drawable-hdpi/<br>
+res/drawable-mdpi/<br>
+res/drawable-xhdpi/<br>
+res/drawable-xxhdpi/<br>
+res/drawable-xxxhdpi/<br>
+res/mipmap-hdpi/<br>
+res/mipmap-mdpi/<br>
+res/mipmap-xhdpi/<br>
+res/mipmap-xxhdpi/<br>
+res/mipmap-xxxhdpi/<br>
+
+<br><br>
+# ৩. লোগো ফাইলের নাম চিহ্নিত করা:<br>
+সাধারণ নামগুলো:<br>
+- ic_launcher.png<br>
+- ic_launcher_round.png<br>
+- ic_launcher_foreground.png<br>
+- ic_launcher_background.png<br>
+- app_icon.png<br>
+- icon.png<br>
+<br><br>
+# ৪. APK Editor দিয়ে পরিবর্তন করা:<br>
+ধাপ-১: APK Editor ওপেন করুন<br>
+ধাপ-২: "Select an APK file" এ ক্লিক করুন<br>
+ধাপ-৩: আপনার APK সিলেক্ট করুন<br>
+ধাপ-৪: "Full Edit" মোড নির্বাচন করুন<br>
+ধাপ-৫: উপরের পাথগুলোতে গিয়ে লোগো ফাইল খুঁজুন<br>
+ধাপ-৬: পুরোনো লোগো ডিলিট করে নতুন লোগো অ্যাড করুন<br>
+ধাপ-৭: Save/Install করুন<br>
+<br><br>
+# ৫. লোগো রেজোলিউশন গুরুত্বপূর্ণ:<br>
+| ফোল্ডার | রেজোলিউশন |<br>
+|---------|------------|<br>
+| mipmap-mdpi | 48x48 px |<br>
+| mipmap-hdpi | 72x72 px |<br>
+| mipmap-xhdpi | 96x96 px |<br>
+| mipmap-xxhdpi | 144x144 px |<br>
+| mipmap-xxxhdpi | 192x192 px |<br>
+
+<br><br>
+- সব রেজোলিউশনে লোগো replace করুন<br>
+- ফাইল ফরমেট PNG হওয়া ভালো<br>
+- ফাইলের নাম একই রাখুন<br>
+- Backup নিয়ে কাজ করুন<br>
